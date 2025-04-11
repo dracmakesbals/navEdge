@@ -91,6 +91,29 @@ day_input = st.selectbox(
     index=datetime.today().weekday() if datetime.today().weekday() < 7 else 0
 )
 
+pickup_hour = st.selectbox(
+    "Select Pickup Hour",
+    options=[f"{i:02d}" for i in range(24)],
+    index=datetime.now().hour
+)
+
+traffic_multipliers = {
+    "weekday": {
+        "00": 1.0, "01": 1.0, "02": 1.0, "03": 1.0, "04": 1.1,
+        "05": 1.2, "06": 1.4, "07": 1.7, "08": 2.3, "09": 2.1,
+        "10": 1.7, "11": 1.5, "12": 1.6, "13": 1.7, "14": 1.6,
+        "15": 1.7, "16": 1.9, "17": 2.2, "18": 2.4, "19": 2.0,
+        "20": 1.6, "21": 1.4, "22": 1.2, "23": 1.1
+    },
+    "weekend": {
+        "00": 1.0, "01": 1.0, "02": 1.0, "03": 1.0, "04": 1.0,
+        "05": 1.0, "06": 1.1, "07": 1.2, "08": 1.4, "09": 1.6,
+        "10": 1.8, "11": 1.9, "12": 2.0, "13": 2.0, "14": 1.9,
+        "15": 1.8, "16": 1.8, "17": 1.9, "18": 2.0, "19": 1.9,
+        "20": 1.7, "21": 1.5, "22": 1.3, "23": 1.1
+    }
+}
+
 if st.button("Get ETA and Distance"):
     if pickup and drop:
         with st.spinner("Fetching data..."):
@@ -98,12 +121,16 @@ if st.button("Get ETA and Distance"):
             drop_area, drop_road, drop_tti = get_simple_match(drop, day_input)
 
             average_tti = round((pickup_tti + drop_tti) / 2, 3)
+            # Map user-selected day to weekday/weekend
+            day_category = "weekday" if day_input in ["Mon", "Tue", "Wed", "Thu", "Fri"] else "weekend"
+            hour_multiplier = traffic_multipliers[day_category].get(pickup_hour, 1.0)
+            final_tti = round(average_tti * hour_multiplier, 3)
 
             eta, distance, route_info = get_eta_distance(pickup, drop)
             eta_minutes = int(re.search(r"\d+", eta).group())
 
             # Calculate adjusted ETA
-            adjusted_eta = round(eta_minutes * average_tti)
+            adjusted_eta = round(eta_minutes * final_tti)
 
             if eta and distance:
                 st.success(f"🕒 ETA: {eta}")
