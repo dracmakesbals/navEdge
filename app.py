@@ -15,7 +15,7 @@ def get_eta_distance(pickup, drop):
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--log-level=3")
 
-    chromedriver_path = r"resources\chromedriver.exe"
+    chromedriver_path = r"C:\Users\Jatin Hegde\Desktop\navedge\resources\chromedriver.exe"
     service = Service(executable_path=chromedriver_path)
     driver = webdriver.Chrome(service=service, options=options)
 
@@ -68,19 +68,19 @@ def get_eta_distance(pickup, drop):
 
 # Streamlit UI
 st.set_page_config(page_title="ETA & Distance Checker", layout="centered")
-st.title("MyPickup ETA & Distance Checker")
+st.title("🗺️ Google Maps ETA & Distance Checker")
 
 pickup = st.text_input("Enter Pickup Location")
 drop = st.text_input("Enter Drop Location")
 
 if st.button("Get ETA and Distance"):
     if pickup and drop:
-        with st.spinner("Fetching data..."):
+        with st.spinner("Fetching data from Google Maps..."):
             eta, distance , route_info = get_eta_distance(pickup, drop)
             if eta and distance and route_info:
                 st.success(f"🕒 ETA: {eta}")
                 st.info(f"📍 Distance: {distance}")
-                st.info(f"🎯 Route Info: {route_info}")
+                st.info(f"🚦 Route Info: {route_info}")
             else:
                 st.warning("⚠️ Could not fetch data. Please check the input or try again.")
     else:
