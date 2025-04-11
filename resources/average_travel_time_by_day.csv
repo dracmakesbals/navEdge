@@ -1,0 +1,113 @@
+Area Name,Road/Intersection Name,day,Travel Time Index
+Electronic City,Hosur Road,Mon,1.2126829268292683
+Electronic City,Hosur Road,Tue,1.2401315789473684
+Electronic City,Hosur Road,Wed,1.2141290322580645
+Electronic City,Hosur Road,Thu,1.1796756756756757
+Electronic City,Hosur Road,Fri,1.2329166666666667
+Electronic City,Hosur Road,Sat,1.22475
+Electronic City,Hosur Road,Sun,1.2686666666666666
+Electronic City,Silk Board Junction,Mon,1.2800689655172415
+Electronic City,Silk Board Junction,Tue,1.2305087719298244
+Electronic City,Silk Board Junction,Wed,1.2360851063829787
+Electronic City,Silk Board Junction,Thu,1.196837837837838
+Electronic City,Silk Board Junction,Fri,1.2137073170731707
+Electronic City,Silk Board Junction,Sat,1.233290322580645
+Electronic City,Silk Board Junction,Sun,1.207060606060606
+Hebbal,Ballari Road,Mon,1.3514393939393938
+Hebbal,Ballari Road,Tue,1.377448717948718
+Hebbal,Ballari Road,Wed,1.3605223880597015
+Hebbal,Ballari Road,Thu,1.36371875
+Hebbal,Ballari Road,Fri,1.381734375
+Hebbal,Ballari Road,Sat,1.3497391304347828
+Hebbal,Ballari Road,Sun,1.3531323529411765
+Hebbal,Hebbal Flyover,Mon,1.3454931506849315
+Hebbal,Hebbal Flyover,Tue,1.378985294117647
+Hebbal,Hebbal Flyover,Wed,1.392472972972973
+Hebbal,Hebbal Flyover,Thu,1.3893157894736843
+Hebbal,Hebbal Flyover,Fri,1.3814366197183097
+Hebbal,Hebbal Flyover,Sat,1.3399999999999999
+Hebbal,Hebbal Flyover,Sun,1.3800142857142856
+Indiranagar,100 Feet Road,Mon,1.400806451612903
+Indiranagar,100 Feet Road,Tue,1.3842047244094489
+Indiranagar,100 Feet Road,Wed,1.3876475409836067
+Indiranagar,100 Feet Road,Thu,1.4067540983606557
+Indiranagar,100 Feet Road,Fri,1.4048823529411765
+Indiranagar,100 Feet Road,Sat,1.3841199999999998
+Indiranagar,100 Feet Road,Sun,1.4054462809917354
+Indiranagar,CMH Road,Mon,1.3999032258064517
+Indiranagar,CMH Road,Tue,1.4199186991869919
+Indiranagar,CMH Road,Wed,1.4240983606557378
+Indiranagar,CMH Road,Thu,1.427289256198347
+Indiranagar,CMH Road,Fri,1.3957355371900826
+Indiranagar,CMH Road,Sat,1.4168264462809919
+Indiranagar,CMH Road,Sun,1.3773359375
+Jayanagar,Jayanagar 4th Block,Mon,1.3711975308641975
+Jayanagar,Jayanagar 4th Block,Tue,1.3501744186046511
+Jayanagar,Jayanagar 4th Block,Wed,1.3395131578947368
+Jayanagar,Jayanagar 4th Block,Thu,1.3786296296296296
+Jayanagar,Jayanagar 4th Block,Fri,1.3360571428571428
+Jayanagar,Jayanagar 4th Block,Sat,1.344876404494382
+Jayanagar,Jayanagar 4th Block,Sun,1.3607113402061857
+Jayanagar,South End Circle,Mon,1.371901098901099
+Jayanagar,South End Circle,Tue,1.3568658536585367
+Jayanagar,South End Circle,Wed,1.379329268292683
+Jayanagar,South End Circle,Thu,1.3627710843373493
+Jayanagar,South End Circle,Fri,1.3547340425531915
+Jayanagar,South End Circle,Sat,1.3501666666666667
+Jayanagar,South End Circle,Sun,1.3312467532467533
+Koramangala,Sarjapur Road,Mon,1.4684020618556701
+Koramangala,Sarjapur Road,Tue,1.4591612903225806
+Koramangala,Sarjapur Road,Wed,1.4690594059405941
+Koramangala,Sarjapur Road,Thu,1.4795392156862746
+Koramangala,Sarjapur Road,Fri,1.4703936170212768
+Koramangala,Sarjapur Road,Sat,1.4722659574468084
+Koramangala,Sarjapur Road,Sun,1.45689898989899
+Koramangala,Sony World Junction,Mon,1.4668378378378377
+Koramangala,Sony World Junction,Tue,1.4691456310679611
+Koramangala,Sony World Junction,Wed,1.4733267326732675
+Koramangala,Sony World Junction,Thu,1.4676941176470588
+Koramangala,Sony World Junction,Fri,1.4607752808988763
+Koramangala,Sony World Junction,Sat,1.4735816326530613
+Koramangala,Sony World Junction,Sun,1.4750721649484535
+M.G. Road,Anil Kumble Circle,Mon,1.463125
+M.G. Road,Anil Kumble Circle,Tue,1.427552380952381
+M.G. Road,Anil Kumble Circle,Wed,1.4412407407407406
+M.G. Road,Anil Kumble Circle,Thu,1.4580093457943926
+M.G. Road,Anil Kumble Circle,Fri,1.4312660550458716
+M.G. Road,Anil Kumble Circle,Sat,1.4366339285714285
+M.G. Road,Anil Kumble Circle,Sun,1.4517452830188677
+M.G. Road,Trinity Circle,Mon,1.4449142857142858
+M.G. Road,Trinity Circle,Tue,1.4276574074074075
+M.G. Road,Trinity Circle,Wed,1.4346697247706421
+M.G. Road,Trinity Circle,Thu,1.4356346153846156
+M.G. Road,Trinity Circle,Fri,1.4349326923076924
+M.G. Road,Trinity Circle,Sat,1.4439716981132076
+M.G. Road,Trinity Circle,Sun,1.4364905660377358
+Whitefield,ITPL Main Road,Mon,1.310153846153846
+Whitefield,ITPL Main Road,Tue,1.3144500000000001
+Whitefield,ITPL Main Road,Wed,1.2808253968253969
+Whitefield,ITPL Main Road,Thu,1.2685555555555554
+Whitefield,ITPL Main Road,Fri,1.2951323529411765
+Whitefield,ITPL Main Road,Sat,1.3076478873239437
+Whitefield,ITPL Main Road,Sun,1.3289
+Whitefield, Bridge,Mon,1.3018076923076922
+Whitefield, Bridge,Tue,1.2743243243243243
+Whitefield, Bridge,Wed,1.2982931034482759
+Whitefield, Bridge,Thu,1.296357142857143
+Whitefield, Bridge,Fri,1.2516500000000002
+Whitefield, Bridge,Sat,1.2621829268292681
+Whitefield, Bridge,Sun,1.3252285714285714
+Yeshwanthpur,Tumkur Road,Mon,1.2378367346938777
+Yeshwanthpur,Tumkur Road,Tue,1.2496851851851853
+Yeshwanthpur,Tumkur Road,Wed,1.2528823529411763
+Yeshwanthpur,Tumkur Road,Thu,1.2375873015873016
+Yeshwanthpur,Tumkur Road,Fri,1.2779074074074075
+Yeshwanthpur,Tumkur Road,Sat,1.272488888888889
+Yeshwanthpur,Tumkur Road,Sun,1.2639555555555555
+Yeshwanthpur,Yeshwanthpur Circle,Mon,1.27094
+Yeshwanthpur,Yeshwanthpur Circle,Tue,1.2634716981132075
+Yeshwanthpur,Yeshwanthpur Circle,Wed,1.2597962962962963
+Yeshwanthpur,Yeshwanthpur Circle,Thu,1.2692592592592593
+Yeshwanthpur,Yeshwanthpur Circle,Fri,1.2652127659574468
+Yeshwanthpur,Yeshwanthpur Circle,Sat,1.2875
+Yeshwanthpur,Yeshwanthpur Circle,Sun,1.2885283018867926
